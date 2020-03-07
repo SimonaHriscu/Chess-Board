@@ -1,0 +1,21 @@
+table{
+    border: 5px black solid;
+    border-spacing: 0;
+    width: 30rem;
+    height: 30rem;
+    margin: 2.3rem auto; 
+}
+.container{
+    width: 35rem;
+    height: 35rem;
+    margin: 2rem auto;
+    background-color: aliceblue;
+    border: 5px black solid;
+    background-color: #0a0200;
+    background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png")
+}
+table tr:nth-child(odd) :nth-child(even),
+table tr:nth-child(even) :nth-child(odd){
+    background-color:white;
+    
+}
